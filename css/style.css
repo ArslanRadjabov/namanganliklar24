@@ -1,0 +1,148 @@
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik-Medium.woff2') format('woff2'),
+        url('../fonts/Rubik-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik-Bold.woff2') format('woff2'),
+        url('../fonts/Rubik-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik-Regular.woff2') format('woff2'),
+        url('../fonts/Rubik-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+.Koronavirus-main{
+    background-color: lightgrey;
+  
+}
+.section_covid{
+    list-style: none;
+}
+.Hisoblangan{
+}
+.covid_a{
+    color: rgb(10, 10, 10);
+}
+.covid_b{
+    color: rgb(235, 80, 19);
+}
+.covid_c{
+    color: rgb(78, 228, 19);
+}
+.covid_d{
+    color: rgb(75, 5, 5);
+}
+.Sogayibketgan
+{
+    color: darkgreen;
+}
+.Vafotetgan{
+    color: saddlebrown;
+}
+.textnav{
+    border: 3px solid darkgreen;
+    
+
+}
+.asosiyekran{
+    list-style: none;
+    font-family: "Rubik",sans-serif;
+
+}
+.textlinks {
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-weight: 200px;
+    list-style: none;
+    text-transform: uppercase;
+    font-family: "Rubik" "Arial" sans-serif;
+
+}
+.header_nav{
+    font-family: "Rubik","Arial",sans-serif;
+
+}
+.turlar{
+    text-decoration: none;
+    color: black;
+    list-style: none;
+    font-family: "Rubik" "Arial" sans-serif;
+}
+.bell{
+   border: 2px solid lightsalmon;
+   background-color: lightgoldenrodyellow; 
+   font-size: 25px; 
+   list-style: none;
+}
+.tugma{
+    background-color: lightsalmon;
+    color: white;    
+}
+.kattayangiliklar{
+    border: 2px solid blue;
+    background-color: blue;
+    color: white;
+    letter-spacing: 3px;
+    line-height: 3;
+    width: 200px;
+}
+.tagqism{
+    background-color: #295093;
+    }
+.header{
+    border: 1px solid black;
+    color: white;
+    height: 30px;
+    background-color: blue;
+    width: 200px;
+    font-style: normal;
+    font-size: 15px;
+    letter-spacing: 2px;
+
+
+}
+.telegram{
+    border: 1px solid white;
+    color: blue;
+    width: 88px;
+    height: 19px;
+    background-color: white;
+    text-decoration: none;
+}
+.header-text{
+    color: white;
+
+}
+.paragraph{
+    line-height: 2;
+    width: 400px;
+    color: white;
+
+}
+.telegram-first{
+    border: 2px solid lightblue;
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    letter-spacing: 3px;
+    width: 400px;
+    line-height: 5;
+
+}

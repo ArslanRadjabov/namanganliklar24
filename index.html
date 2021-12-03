@@ -1,48 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uz">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Namanganliklar24</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body style="background-color: lightgray;">
+<body class="asosiyekran" style="background-color: lightcyan;">
     <header>
         <img src="images/logo.svg" alt="logonamangan" width="306" height="33">
         <ul>
             <img src="images/Vector.png" alt="soroq" width="17,5" height="17.5"> <br>
             <img src="images/Group.png" alt="bayroq">
             <img src="images/РУ.png" alt="rus">
-            <a href="#"> <img src="images/Vector (2).png" alt="TELEGRAM">TELEGRAM</a>
+            <a class="telegram-first" href="#"> <img src="images/Vector (2).png" alt="TELEGRAM">Подписатся</a>
             <li> <b>$</b> 101372.2</li>
             <li> <b>E</b> 249217.3</li>
             <li> <b>D</b> 501412.4</li>
         </ul>
-        <section>
-            <nav>
-                <ul>
-                    <li><a href="#">uzbekistan</a> </li>
-                    <li><a href="#">Dunyo</a> </li>
-                    <li><a href="#">Iqtisod</a> </li>
-                    <li><a href="#">Siyosat</a> </li>
-                    <li><a href="#">Texnologiya</a> </li>
-                    <li><a href="#">Sport</a> </li>
-                    <li><a href="#">Kultura</a> </li>
-                    <li><a href="#">Turizm</a> </li>
+        <section class="header_nav">
+            <nav class="textnav">
+                <ul class="textlinks">
+                    <li><a class="turlar"  href="#">Узбекистана</a> </li>
+                    <li><a class="turlar" href="#">Мир</a> </li>
+                    <li><a class="turlar" href="#">Экономика</a> </li>
+                    <li><a class="turlar" href="#">Политика</a> </li>
+                    <li><a class="turlar" href="#">Общество</a> </li>
+                    <li><a class="turlar" href="#">Технологии</a> </li>
+                    <li><a class="turlar" href="#">Спорт</a> </li>
+                    <li><a class="turlar" href="#">Культура</a> </li>
                 </ul>
-                <img src="images/nrg-banner.svg" alt="bannerreklama" width="1200" height="99">
-
             </nav>
+            <img src="images/nrg-banner.svg" alt="bannerreklama" width="1200" height="99">
         </section>
     </header>
-    <ul>
-        <li> <a href="#"><img src="images/icon-covid.svg" alt="c">KORONAVIRUS Covid 2019</a> </li>
-        <li> <a href="#"><img src="images/icon-infected.svg" alt="infec">Hisoblangan <b>2763</b></a> </li>
-        <li><a href="#"> <img src="images/icon-recovered.svg" alt="rec">Sogayib Ketganlar <b>2245</b></a></li>
-        <li><a href="#"><img src="images/icon-dead.svg" alt="rec">Vafot etganlar<b>22</b></a></li>
-    </ul>
+    <section class="Koronavirus-main">
+        <ul class="section_covid">
+            <li class="covid_a"> <img src="images/icon-covid.svg" alt="c">KORONAVIRUS Covid 2019</a> </li>
+            <li class="covid_b"> <img src="images/icon-infected.svg" alt="infec">Hisoblangan</li>
+            <b><p>2763</p> </b> 
+            <li class="covid_c"> <img src="images/icon-recovered.svg" alt="rec">Sogayib Ketganlar</li>
+            <b><p>2245</p> </b>
+            <li class="covid_d"> <img src="images/icon-dead.svg" alt="rec">Vafot etganlar</li>
+            <b><p>2212</p></b>
+        </ul>
+    </section>
     <section>
         <ul>
             <li><time datetime="">2020.10.14</time><a href="#"><img src="images/prezident.svg" alt="">President Shavkat
@@ -57,9 +62,12 @@
                     yordam deb almashtirildi</a></li>
         </ul>
     </section>
-    <ul>
-        <li><img src="IMAGES/bell-icon@2x.svg" alt=""> <a href="#"><b> Yangiliklarni bilishni xohlaysizmi shu yerga
-                    bosing</b></a></li>
+    <ul class="bell">
+        <li><img src="IMAGES/bell-icon@2x.svg" alt="">Yangiliklarni bilishni xohlaysizmi shu yerga
+                    bosing</li>
+                    <button class="tugma">Включит  уведомления!
+                    </button>
+
     </ul>
     <section>
         <h2>Ohirgi yangiliklar</h2>
@@ -104,6 +112,9 @@
                 </p><img src="images/ic_outline-date-range.svg" alt=""><time datetime="">15.05.2020 </time>
             </li>
         </ul>
+        <button class="kattayangiliklar">
+            Больше новостей
+        </button>
         <ul>
             <li><img src="images/Group 1.svg" alt=""> <b><a href="#">Всегда будьте в курсе последних новостей!</a></b>
                 <p>Установите мобильное приложение NAMANGANLIKLAR24
@@ -113,7 +124,18 @@
         </ul>
 
     </section>
+    <footer class="tagqism">
+        <h2 class="header">NAMANGANLIKLAR24</h2>
+        <p class="header-text">Подписывайтесь на наш канал в Telegram и будьте всегда в курсе самых последних новостей:</p>
+        <a class="telegram" target="_blank" href="#"><img src="images/icon-telegram-blue.svg" alt="telegramlogo"> <b>Подписатся</b></a>
+        <hr>
+        <p class="paragraph">О сайте 
+            Воспроизводство, копирование, тиражирование, распростране ние и иное использование информации с сайта «NAMANGANLIKLAR24.UZ» возможно только с предварительного письменного разрешения редакции.
+        </p>
 
+
+
+    </footer>
 </body>
 
 </html>
